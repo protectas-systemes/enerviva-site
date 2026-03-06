@@ -1,4 +1,5 @@
 import ContactForm from "./components/ContactForm";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
@@ -11,10 +12,12 @@ export default function Home() {
                 E
               </div>
               <div>
-                <p className="text-sm font-semibold tracking-[0.18em] text-slate-500 uppercase">
+                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
                   EnerViva
                 </p>
-                <p className="text-sm text-slate-500">Eficiencia energética en España</p>
+                <p className="text-sm text-slate-500">
+                  Eficiencia energética en España
+                </p>
               </div>
             </div>
 
@@ -326,30 +329,7 @@ export default function Home() {
         </div>
       </section>
 
-<ContactForm />
-      <div className="rounded-[2.5rem] border border-slate-200 bg-white p-8 shadow-[0_30px_80px_rgba(15,23,42,0.08)] md:p-12">
-          <div className="grid items-center gap-8 lg:grid-cols-[1fr_auto]">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-green-700">
-                Contacto
-              </p>
-              <h2 className="mt-3 text-4xl font-semibold tracking-[-0.04em] text-slate-950 md:text-5xl">
-                Solicita tu estudio energético
-              </h2>
-              <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
-                Escríbenos por WhatsApp y revisaremos tu caso de forma clara, rápida y profesional.
-              </p>
-            </div>
-
-            <a
-              href="https://wa.me/34672759866"
-              className="inline-flex rounded-full bg-green-600 px-7 py-4 text-sm font-semibold text-white shadow-[0_16px_40px_rgba(22,163,74,0.35)] transition hover:-translate-y-0.5 hover:bg-green-700"
-            >
-              Contactar ahora
-            </a>
-          </div>
-        </div>
-      </section>
+      <ContactForm />
     </main>
   );
 }
