@@ -23,19 +23,20 @@ Mensaje: ${mensaje}`;
   };
 
   return (
-    <section className="mx-auto max-w-7xl px-6 pb-28 md:px-10 lg:px-12">
+    <section id="contacto" className="mx-auto max-w-7xl px-6 pb-28 md:px-10 lg:px-12">
       <div className="rounded-[2.5rem] border border-slate-200 bg-white p-8 shadow-[0_30px_80px_rgba(15,23,42,0.08)] md:p-12">
         <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr]">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.22em] text-green-700">
               Contacto
             </p>
+
             <h2 className="mt-3 text-4xl font-semibold tracking-[-0.04em] text-slate-950 md:text-5xl">
               Solicita tu estudio energético
             </h2>
+
             <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
-              Déjanos tus datos y te redirigiremos directamente a WhatsApp con tu
-              solicitud ya preparada.
+              Déjanos tus datos y te redirigiremos directamente a WhatsApp con tu solicitud ya preparada.
             </p>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
@@ -43,10 +44,12 @@ Mensaje: ${mensaje}`;
                 <p className="text-sm text-slate-500">Respuesta</p>
                 <p className="mt-1 font-semibold text-slate-900">Rápida</p>
               </div>
+
               <div className="rounded-2xl bg-slate-50 p-4">
                 <p className="text-sm text-slate-500">Proceso</p>
                 <p className="mt-1 font-semibold text-slate-900">Simple</p>
               </div>
+
               <div className="rounded-2xl bg-slate-50 p-4">
                 <p className="text-sm text-slate-500">Atención</p>
                 <p className="mt-1 font-semibold text-slate-900">Personalizada</p>
