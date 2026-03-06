@@ -18,7 +18,7 @@ Teléfono: ${telefono}
 Ciudad: ${ciudad}
 Mensaje: ${mensaje}`;
 
-    const url = `https://wa.me/34672759866?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/34623619672?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank");
   };
 
