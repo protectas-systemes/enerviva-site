@@ -347,7 +347,116 @@ export default function Home() {
           </div>
         </div>
       </section>
+<section className="mx-auto max-w-7xl px-6 pb-24 md:px-10 lg:px-12">
+  <div className="overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white shadow-[0_30px_80px_rgba(15,23,42,0.08)]">
+    <div className="grid lg:grid-cols-[1.05fr_0.95fr]">
+      <div className="p-8 md:p-12 lg:p-14">
+        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-green-700">
+          Aislamiento de buhardillas
+        </p>
 
+        <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] text-slate-950 md:text-5xl">
+          Una de las formas más inteligentes de reducir pérdidas de energía
+        </h2>
+
+        <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+          En muchas viviendas, una parte importante de las pérdidas térmicas se
+          produce por la cubierta o por espacios bajo cubierta mal aislados.
+          Actuar sobre esta zona puede mejorar el confort interior, reducir la
+          sensación de frío en invierno y ayudar a optimizar el consumo
+          energético del hogar.
+        </p>
+
+        <div className="mt-8 grid gap-4 sm:grid-cols-2">
+          <div className="rounded-[1.5rem] bg-slate-50 p-5">
+            <h3 className="text-lg font-semibold text-slate-950">
+              Más confort térmico
+            </h3>
+            <p className="mt-2 leading-7 text-slate-600">
+              Menos variaciones de temperatura y una vivienda más agradable
+              durante todo el año.
+            </p>
+          </div>
+
+          <div className="rounded-[1.5rem] bg-slate-50 p-5">
+            <h3 className="text-lg font-semibold text-slate-950">
+              Menor consumo
+            </h3>
+            <p className="mt-2 leading-7 text-slate-600">
+              Una vivienda mejor aislada necesita menos energía para mantener una
+              temperatura confortable.
+            </p>
+          </div>
+
+          <div className="rounded-[1.5rem] bg-slate-50 p-5">
+            <h3 className="text-lg font-semibold text-slate-950">
+              Mejora del hogar
+            </h3>
+            <p className="mt-2 leading-7 text-slate-600">
+              El aislamiento es una mejora útil, duradera y coherente con una
+              vivienda más eficiente.
+            </p>
+          </div>
+
+          <div className="rounded-[1.5rem] bg-slate-50 p-5">
+            <h3 className="text-lg font-semibold text-slate-950">
+              Posible encaje CAE
+            </h3>
+            <p className="mt-2 leading-7 text-slate-600">
+              Según el caso, la actuación y la documentación, la mejora del
+              aislamiento puede entrar dentro de una lógica de ahorro energético
+              valorizable.
+            </p>
+          </div>
+        </div>
+
+        <a
+          href="#contacto"
+          className="mt-8 inline-flex rounded-full bg-green-600 px-6 py-3 text-sm font-semibold text-white shadow-[0_16px_40px_rgba(22,163,74,0.35)] transition hover:-translate-y-0.5 hover:bg-green-700"
+        >
+          Quiero estudiar mi vivienda
+        </a>
+      </div>
+
+      <div className="bg-gradient-to-br from-slate-950 via-green-950 to-emerald-900 p-8 text-white md:p-12 lg:p-14">
+        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-green-200">
+          Cómo trabajamos
+        </p>
+
+        <h3 className="mt-4 text-3xl font-semibold tracking-[-0.03em]">
+          Un enfoque claro, simple y profesional
+        </h3>
+
+        <div className="mt-8 space-y-4">
+          {[
+            "Analizamos la vivienda y el tipo de espacio a mejorar.",
+            "Revisamos si la actuación tiene sentido desde el punto de vista energético.",
+            "Valoramos la información disponible para estudiar su posible encaje en una lógica CAE.",
+            "Te orientamos de forma clara sobre el siguiente paso.",
+          ].map((item) => (
+            <div
+              key={item}
+              className="rounded-[1.4rem] border border-white/10 bg-white/10 p-4 backdrop-blur"
+            >
+              <p className="leading-7 text-white/90">{item}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-8 rounded-[1.6rem] border border-white/10 bg-white/10 p-5 backdrop-blur">
+          <p className="text-sm font-medium text-green-200">
+            Importante
+          </p>
+          <p className="mt-2 text-sm leading-7 text-white/85">
+            No se trata de una ayuda automática ni universal. Cada caso depende
+            del tipo de actuación, de la vivienda, de la documentación y del
+            proceso de validación aplicable.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       <ContactForm />
     </main>
   );
