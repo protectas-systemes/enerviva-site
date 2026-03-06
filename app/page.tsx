@@ -1,65 +1,147 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main
+      style={{
+        fontFamily: "Arial, sans-serif",
+        backgroundColor: "#f6f8f7",
+        color: "#1f2937",
+        minHeight: "100vh",
+        margin: 0,
+      }}
+    >
+      <section
+        style={{
+          background: "linear-gradient(135deg, #1f7a5c, #2f9e44)",
+          color: "white",
+          padding: "80px 20px",
+          textAlign: "center",
+        }}
+      >
+        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+          <h1 style={{ fontSize: "48px", marginBottom: "20px" }}>EnerViva</h1>
+
+          <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
+            Energía inteligente para tu hogar
+          </h2>
+
+          <p style={{ fontSize: "18px", maxWidth: "700px", margin: "0 auto 30px" }}>
+            Soluciones de eficiencia energética para viviendas:
+            aislamiento, ahorro y confort.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://wa.me/34672759866"
+            style={{
+              display: "inline-block",
+              padding: "14px 24px",
+              backgroundColor: "white",
+              color: "#1f7a5c",
+              textDecoration: "none",
+              borderRadius: "10px",
+              fontWeight: "bold",
+            }}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+            Contactar por WhatsApp
           </a>
         </div>
-      </main>
-    </div>
+      </section>
+
+      <section style={{ padding: "60px 20px" }}>
+        <div style={{ maxWidth: "1000px", margin: "0 auto", textAlign: "center" }}>
+          <h2 style={{ fontSize: "32px", marginBottom: "40px" }}>
+            ¿Qué hacemos?
+          </h2>
+
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+              gap: "20px",
+            }}
+          >
+            <div
+              style={{
+                background: "white",
+                padding: "24px",
+                borderRadius: "14px",
+                boxShadow: "0 8px 20px rgba(0,0,0,0.06)",
+              }}
+            >
+              <h3>Aislamiento</h3>
+              <p>
+                Mejoramos el confort térmico de la vivienda y ayudamos a reducir
+                pérdidas de energía.
+              </p>
+            </div>
+
+            <div
+              style={{
+                background: "white",
+                padding: "24px",
+                borderRadius: "14px",
+                boxShadow: "0 8px 20px rgba(0,0,0,0.06)",
+              }}
+            >
+              <h3>Ahorro energético</h3>
+              <p>
+                Soluciones pensadas para bajar el consumo y optimizar el gasto.
+              </p>
+            </div>
+
+            <div
+              style={{
+                background: "white",
+                padding: "24px",
+                borderRadius: "14px",
+                boxShadow: "0 8px 20px rgba(0,0,0,0.06)",
+              }}
+            >
+              <h3>Asesoramiento</h3>
+              <p>
+                Estudiamos cada caso para orientar al cliente hacia la solución
+                más adecuada.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style={{ padding: "20px 20px 80px" }}>
+        <div
+          style={{
+            maxWidth: "800px",
+            margin: "0 auto",
+            textAlign: "center",
+            background: "white",
+            padding: "40px 20px",
+            borderRadius: "16px",
+            boxShadow: "0 8px 20px rgba(0,0,0,0.06)",
+          }}
+        >
+          <h2 style={{ fontSize: "30px", marginBottom: "20px" }}>
+            Solicita información
+          </h2>
+
+          <p style={{ marginBottom: "25px" }}>
+            Contáctanos por WhatsApp y estudiaremos tu proyecto.
+          </p>
+
+          <a
+            href="https://wa.me/34672759866"
+            style={{
+              display: "inline-block",
+              padding: "14px 24px",
+              backgroundColor: "#1f7a5c",
+              color: "white",
+              textDecoration: "none",
+              borderRadius: "10px",
+              fontWeight: "bold",
+            }}
+          >
+            Enviar mensaje
+          </a>
+        </div>
+      </section>
+    </main>
   );
 }
