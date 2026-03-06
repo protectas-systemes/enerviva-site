@@ -23,7 +23,7 @@ Mensaje: ${mensaje}`;
   };
 
   return (
-    <section id="contacto" className="mx-auto max-w-7xl px-6 pb-28 md:px-10 lg:px-12">
+    <section id="contacto" className="mx-auto max-w-7xl px-6 pb-36 md:px-10 lg:px-12">
       <div className="rounded-[2.5rem] border border-slate-200 bg-white p-8 shadow-[0_30px_80px_rgba(15,23,42,0.08)] md:p-12">
         <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr]">
           <div>
