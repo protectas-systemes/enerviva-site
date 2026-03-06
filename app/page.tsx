@@ -5,12 +5,14 @@ export default function Home() {
     <main className="min-h-screen bg-white text-slate-900">
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(34,197,94,0.22),transparent_32%),radial-gradient(circle_at_top_right,rgba(16,185,129,0.18),transparent_28%),linear-gradient(to_bottom,white,rgba(240,253,244,0.75))]" />
+
         <div className="relative mx-auto max-w-7xl px-6 pb-24 pt-8 md:px-10 lg:px-12">
           <header className="mb-16 flex items-center justify-between rounded-full border border-slate-200/70 bg-white/80 px-5 py-3 shadow-[0_10px_35px_rgba(15,23,42,0.06)] backdrop-blur">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-green-500 to-emerald-700 text-sm font-semibold text-white shadow-lg">
                 E
               </div>
+
               <div>
                 <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
                   EnerViva
@@ -51,7 +53,7 @@ export default function Home() {
 
               <div className="mt-10 flex flex-wrap gap-4">
                 <a
-                  href="https://wa.me/34672759866"
+                  href="#contacto"
                   className="rounded-full bg-slate-950 px-7 py-4 text-sm font-medium text-white shadow-[0_14px_40px_rgba(15,23,42,0.22)] transition hover:-translate-y-0.5"
                 >
                   Solicitar estudio gratuito
@@ -70,10 +72,12 @@ export default function Home() {
                   <p className="text-sm text-slate-500">Confort</p>
                   <p className="mt-2 text-xl font-semibold">Más estabilidad térmica</p>
                 </div>
+
                 <div className="rounded-3xl border border-slate-200 bg-white/85 p-5 shadow-[0_12px_30px_rgba(15,23,42,0.04)] backdrop-blur">
                   <p className="text-sm text-slate-500">Ahorro</p>
                   <p className="mt-2 text-xl font-semibold">Menor consumo energético</p>
                 </div>
+
                 <div className="rounded-3xl border border-slate-200 bg-white/85 p-5 shadow-[0_12px_30px_rgba(15,23,42,0.04)] backdrop-blur">
                   <p className="text-sm text-slate-500">Gestión</p>
                   <p className="mt-2 text-xl font-semibold">Acompañamiento de principio a fin</p>
@@ -88,9 +92,11 @@ export default function Home() {
               <div className="relative overflow-hidden rounded-[2rem] border border-white/70 bg-white/80 p-5 shadow-[0_30px_90px_rgba(15,23,42,0.12)] backdrop-blur">
                 <div className="rounded-[1.6rem] bg-gradient-to-br from-slate-950 via-green-950 to-emerald-800 p-8 text-white">
                   <p className="text-sm font-medium text-green-200">Sistema CAE</p>
+
                   <h2 className="mt-3 text-3xl font-semibold tracking-[-0.03em]">
                     Convierte el ahorro energético en valor económico
                   </h2>
+
                   <p className="mt-4 max-w-md text-sm leading-7 text-green-50/90">
                     Si una actuación genera ahorro de energía final, ese ahorro puede formar parte de un
                     expediente CAE y recibir una contraprestación económica, según la elegibilidad de la
@@ -114,10 +120,10 @@ export default function Home() {
                   </div>
 
                   <a
-                    href="https://wa.me/34672759866"
+                    href="#contacto"
                     className="mt-8 inline-flex rounded-full bg-white px-5 py-3 text-sm font-semibold text-green-900 transition hover:bg-green-50"
                   >
-                    Hablar con un asesor
+                    Solicitar estudio
                   </a>
                 </div>
               </div>
@@ -149,9 +155,11 @@ export default function Home() {
               <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-green-700">
                 EnerViva
               </p>
+
               <h3 className="text-2xl font-semibold tracking-[-0.03em] text-slate-950">
                 {card.title}
               </h3>
+
               <p className="mt-4 leading-8 text-slate-600">{card.text}</p>
             </div>
           ))}
@@ -163,9 +171,11 @@ export default function Home() {
           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-green-700">
             Cómo funciona
           </p>
+
           <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] text-slate-950 md:text-5xl">
             Un proceso claro, premium y pensado para convertir
           </h2>
+
           <p className="mt-6 text-lg leading-8 text-slate-600">
             Nuestra misión es simplificar al máximo un sistema técnico para que el propietario entienda
             qué puede hacer, qué ventajas puede obtener y qué documentación necesita para avanzar.
@@ -184,9 +194,11 @@ export default function Home() {
               className="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-[0_18px_45px_rgba(15,23,42,0.05)]"
             >
               <p className="text-sm font-semibold text-green-700">{num}</p>
+
               <h3 className="mt-4 text-2xl font-semibold tracking-[-0.03em] text-slate-950">
                 {title}
               </h3>
+
               <p className="mt-4 leading-8 text-slate-600">{text}</p>
             </div>
           ))}
@@ -200,6 +212,7 @@ export default function Home() {
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-green-700">
                 Qué es el sistema CAE
               </p>
+
               <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] text-slate-950 md:text-5xl">
                 Explicado de forma simple
               </h2>
@@ -210,11 +223,13 @@ export default function Home() {
                 El sistema CAE permite dar valor económico a ahorros de energía final obtenidos mediante
                 actuaciones de eficiencia energética.
               </p>
+
               <p>
                 En términos sencillos: si una actuación reduce de forma acreditable el consumo energético,
                 ese ahorro puede integrarse en un proceso de certificación y generar una contraprestación,
                 siempre que se cumplan las condiciones técnicas, documentales y regulatorias aplicables.
               </p>
+
               <p>
                 Por eso no se trata solo de “hacer una obra”, sino de estructurar correctamente la
                 actuación, la trazabilidad del ahorro y el expediente asociado.
@@ -248,6 +263,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold tracking-[-0.03em] text-slate-950">
                   {item.title}
                 </h3>
+
                 <p className="mt-3 leading-7 text-slate-600">{item.text}</p>
               </div>
             ))}
@@ -261,9 +277,11 @@ export default function Home() {
             <p className="text-sm font-semibold uppercase tracking-[0.22em] text-green-700">
               Por qué EnerViva
             </p>
+
             <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] text-slate-950 md:text-5xl">
               Una marca pensada para escalar en energía
             </h2>
+
             <p className="mt-6 text-lg leading-8 text-slate-600">
               No somos una simple página informativa. Queremos posicionar EnerViva como una marca clara,
               seria y premium dentro del sector de la eficiencia energética y de las soluciones para el hogar.
@@ -296,6 +314,7 @@ export default function Home() {
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-green-200">
                 Preguntas frecuentes
               </p>
+
               <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] md:text-5xl">
                 Lo esencial sobre CAE y eficiencia energética
               </h2>
