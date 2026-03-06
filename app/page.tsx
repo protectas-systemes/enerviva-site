@@ -458,6 +458,14 @@ export default function Home() {
   </div>
 </section>
       <ContactForm />
+      <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-slate-200 bg-white/95 p-4 shadow-[0_-10px_30px_rgba(15,23,42,0.08)] backdrop-blur md:hidden">
+  <a
+    href="#contacto"
+    className="flex w-full items-center justify-center rounded-full bg-green-600 px-6 py-4 text-sm font-semibold text-white shadow-[0_16px_40px_rgba(22,163,74,0.35)] transition hover:bg-green-700"
+  >
+    Solicitar estudio gratuito
+  </a>
+</div>
     </main>
   );
 }
