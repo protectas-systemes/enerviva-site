@@ -1,3 +1,4 @@
+import ContactForm from "./components/ContactForm";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
@@ -325,8 +326,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 pb-28 md:px-10 lg:px-12">
-        <div className="rounded-[2.5rem] border border-slate-200 bg-white p-8 shadow-[0_30px_80px_rgba(15,23,42,0.08)] md:p-12">
+<ContactForm />
+      <div className="rounded-[2.5rem] border border-slate-200 bg-white p-8 shadow-[0_30px_80px_rgba(15,23,42,0.08)] md:p-12">
           <div className="grid items-center gap-8 lg:grid-cols-[1fr_auto]">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-green-700">
