@@ -10,12 +10,12 @@ export default function Home() {
           <header className="sticky top-4 z-50 mb-16 flex items-center justify-between rounded-full border border-slate-200/70 bg-white/80 px-5 py-3 shadow-[0_10px_35px_rgba(15,23,42,0.06)] backdrop-blur">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-green-500 to-emerald-700 text-sm font-semibold text-white shadow-lg">
-                E
+                A
               </div>
 
               <div>
                 <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
-                  EnerViva
+                  Aislaverde
                 </p>
                 <p className="text-sm text-slate-500">
                   Eficiencia energética en España
@@ -55,7 +55,7 @@ export default function Home() {
               </h1>
 
               <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-600 md:text-xl">
-                En EnerViva ayudamos a propietarios a mejorar la eficiencia energética de su vivienda
+                En Aislaverde ayudamos a propietarios a mejorar la eficiencia energética de su vivienda
                 con soluciones como aislamiento, optimización del consumo y actuaciones que pueden
                 generar ahorro energético valorizable dentro del sistema CAE.
               </p>
@@ -162,7 +162,7 @@ export default function Home() {
               className="rounded-[2rem] border border-slate-200 bg-white p-7 shadow-[0_20px_50px_rgba(15,23,42,0.05)]"
             >
               <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-green-700">
-                EnerViva
+                Aislaverde
               </p>
 
               <h3 className="text-2xl font-semibold tracking-[-0.03em] text-slate-950">
@@ -284,7 +284,7 @@ export default function Home() {
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.22em] text-green-700">
-              Por qué EnerViva
+              Por qué Aislaverde
             </p>
 
             <h2 className="mt-4 text-4xl font-semibold tracking-[-0.04em] text-slate-950 md:text-5xl">
@@ -292,7 +292,7 @@ export default function Home() {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-600">
-              No somos una simple página informativa. Queremos posicionar EnerViva como una marca clara,
+              No somos una simple página informativa. Queremos posicionar Aislaverde como una marca clara,
               seria y premium dentro del sector de la eficiencia energética y de las soluciones para el hogar.
             </p>
           </div>
